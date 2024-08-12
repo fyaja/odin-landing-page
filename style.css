@@ -21,7 +21,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 75px;
 }
 
 .navigation .logo{
@@ -43,7 +42,9 @@
 
 .hero .hero-content{
   display: flex;
+  flex-wrap: wrap;
   gap: 2.5rem;
+  padding-top: 75px;
   padding-bottom: 100px;
   margin-bottom: 50px;
 }
@@ -78,14 +79,11 @@
 .hero-content .hero-img{
   flex: 1;
   background-color: rgb(137, 137, 137);
+  color: white;
   min-height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.hero-img span{
-  color: white;
 }
 
 /* cards-section */
