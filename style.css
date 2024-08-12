@@ -80,7 +80,7 @@
   flex: 1;
   background-color: rgb(137, 137, 137);
   color: white;
-  min-height: 250px;
+  /* min-height: 250px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,7 +147,46 @@
 }
 
 .quote-container .author{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-right: 30px;
+}
+
+.cta-section{
+  background-color: rgb(72, 72, 255);
+  border-radius: 0.5rem;
+  margin-block: 100px;
+  padding-block: 50px;
+}
+
+.cta-container{
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-container .cta-left{
+  color: white;
+}
+
+.cta-left h2{
+  font-size: 1.5rem;
+}
+
+.cta-left p{
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.cta-container button{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  background: none;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
 }
