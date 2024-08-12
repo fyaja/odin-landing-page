@@ -11,6 +11,7 @@
   padding-block: 1rem;
 }
 
+/* hero section */
 .hero{
   background-color: rgb(35, 35, 54);
 }
@@ -19,6 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 75px;
 }
 
 .navigation .logo{
@@ -35,5 +37,51 @@
 
 .navigation ul li a{
   text-decoration: none;
-  color: grey;
+  color: rgb(186, 186, 186);
+}
+
+.hero .hero-content{
+  display: flex;
+  gap: 2.5rem;
+  padding-bottom: 100px;
+}
+
+.hero-content .hero-text{
+  flex: 1;
+}
+
+.hero-text h1{
+  color: white;
+  font-size: 4rem;
+  /* line-height: 1em; */
+  margin-bottom: 5px;
+}
+
+.hero-text p{
+  color: rgb(186, 186, 186);
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.hero-text button{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: rgb(72, 72, 255);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.hero-content .hero-img{
+  flex: 1;
+  background-color: rgb(137, 137, 137);
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img span{
+  color: white;
 }
