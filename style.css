@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+.container{
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-block: 1rem;
+}
+
+.hero{
+  background-color: rgb(35, 35, 54);
+}
+
+.hero .navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation ul li a{
+  text-decoration: none;
+  color: grey;
+}
