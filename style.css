@@ -90,6 +90,7 @@
 .card-section{
   max-width: 800px;
   margin-inline: auto;
+  padding-inline: 1rem;
   margin-bottom: 100px;
 }
 
@@ -122,4 +123,31 @@
   font-size: 1rem;
   text-align: center;
   color: rgb(137, 137, 137);
+}
+
+.quote-section{
+  padding-block: 100px;
+  background-color: rgb(235, 235, 235);
+}
+
+.quote-container{
+  padding-inline: 1rem;
+  margin-inline: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote-container .text{
+  margin-left: 60px;
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-container .author{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 30px;
 }
