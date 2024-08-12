@@ -13,7 +13,7 @@
 
 /* hero section */
 .hero{
-  background-color: rgb(35, 35, 54);
+  background-color: #1f2937;
 }
 
 .hero .navigation{
@@ -26,7 +26,7 @@
 .navigation .logo{
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
+  color: #f9faf8;
 }
 
 .navigation ul{
@@ -37,7 +37,7 @@
 
 .navigation ul li a{
   text-decoration: none;
-  color: rgb(186, 186, 186);
+  color: #e5e7eb;
 }
 
 .hero .hero-content{
@@ -54,14 +54,14 @@
 }
 
 .hero-text h1{
-  color: white;
+  color: #f9faf8;
   font-size: 4rem;
   /* line-height: 1em; */
   margin-bottom: 5px;
 }
 
 .hero-text p{
-  color: rgb(186, 186, 186);
+  color: #e5e7eb;
   margin-bottom: 10px;
   font-size: 1.2rem;
 }
@@ -69,17 +69,17 @@
 .hero-text button{
   font-size: 1rem;
   font-weight: bold;
-  color: white;
+  color: #f9faf8;
   border: none;
-  background-color: rgb(72, 72, 255);
+  background-color: #3882f6;
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
 }
 
 .hero-content .hero-img{
   flex: 1;
-  background-color: rgb(137, 137, 137);
-  color: white;
+  background-color: #929599;
+  color: #f9faf8;
   /* min-height: 250px; */
   display: flex;
   justify-content: center;
@@ -97,7 +97,7 @@
 .card-section h2{
   text-align: center;
   font-size: 2rem;
-  color: rgb(35, 35, 54);
+  color: #1f2937;
   margin-bottom: 50px;
 }
 
@@ -115,7 +115,7 @@
 .card .card-border{
   aspect-ratio: 1;
   border-radius: 0.5rem;
-  border: 2px solid rgb(72, 72, 255);
+  border: 2px solid #3882f6;
 }
 
 .card .card-text{
@@ -137,6 +137,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  color: #1f2937;
 }
 
 .quote-container .text{
@@ -153,7 +154,7 @@
 }
 
 .cta-section{
-  background-color: rgb(72, 72, 255);
+  background-color: #3882f6;
   border-radius: 0.5rem;
   margin-block: 100px;
   padding-block: 50px;
@@ -169,7 +170,7 @@
 }
 
 .cta-container .cta-left{
-  color: white;
+  color: #f9faf8;
 }
 
 .cta-left h2{
@@ -184,9 +185,17 @@
 .cta-container button{
   font-size: 1rem;
   font-weight: bold;
-  color: white;
-  border: 2px solid white;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
   background: none;
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
+}
+
+footer{
+  font-size: 1.2rem;
+  color: #f9faf8;
+  background-color:  #1f2937;
+  text-align: center;
+  padding: 50px;
 }
